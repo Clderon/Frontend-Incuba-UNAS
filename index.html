@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INCUBA - UNAS</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./assets/images/image.png" alt="Logo incuba Unas" class="header__logo-img">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Programas </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Nosotros </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Portafolio </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Equipo </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Servicios </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Contacto </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__buttons">
+            <button class="btn header__button--login btn--outline">Inicia Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="carousel">
+            <div class="carousel__container">
+                <!-- Fondo del carrusel con gradiente -->
+                <div class="carousel__background"></div>
+
+                <!-- Contenido fijo central -->
+                <div class="carousel__fixed-content">
+                    <h1 class="carousel__title">
+                        <span class="carousel__item-title">I</span>
+                        <span class="carousel__item-title">N</span>
+                        <span class="carousel__item-title">C</span>
+                        <span class="carousel__item-title">U</span>
+                        <span class="carousel__item-title">B</span>
+                        <span class="carousel__item-title">A</span>
+                        <span class="carousel__item-title"> </span>
+                        <span class="carousel__item-title">U</span>
+                        <span class="carousel__item-title">N</span>
+                        <span class="carousel__item-title">A</span>
+                        <span class="carousel__item-title">S</span>
+                    </h1>
+                    <p class="carousel__subtitle">Transformando el Ecosistema
+                        Emprendedor de la Amazonia</p>
+
+                    <div class="carousel__features">
+                        <div class="carousel__feature">
+                            <span class="carousel__feature-number">1.2K</span>
+                            <span class="carousel__feature-text">Estudiantes</span>
+                        </div>
+                        <div class="carousel__feature">
+                            <span class="carousel__feature-number">+15</span>
+                            <span class="carousel__feature-text">Mentores</span>
+                        </div>
+                    </div>
+
+                    <button class="carousel__cta btn">Programas</button>
+                </div>
+
+                <!-- Slides del carrusel -->
+                <div class="carousel__slides">
+                    <div class="carousel__slide carousel__slide--active" data-color="yellow">
+                        <img src="./assets/images/carousel-01.jpg" alt="Quark Vainilla" class="carousel__product">
+                    </div>
+                    <div class="carousel__slide" data-color="red">
+                        <img src="./assets/images/carousel-02.jpg" alt="Quark Fresa" class="carousel__product">
+                    </div>
+                    <div class="carousel__slide" data-color="green">
+                        <img src="./assets/images/carousel-03.jpg" alt="Quark Manzana" class="carousel__product">
+                    </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="carousel__control carousel__control--prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="carousel__control carousel__control--next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+
+                <!-- Indicadores de slide -->
+                <div class="carousel__indicators">
+                    <div class="carousel__indicator carousel__indicator--active" data-slide="0"></div>
+                    <div class="carousel__indicator" data-slide="1"></div>
+                    <div class="carousel__indicator" data-slide="2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="partners__container">
+                <h2 class="partners__title">SOCIOS ESTRATÉGICOS</h2>
+
+                <div class="partners__carousel">
+                    <div class="partners__track">
+                        <!-- Los logos se duplican para crear un efecto de desplazamiento infinito -->
+                        <div class="partners__item">
+                            <img src="./assets/images/CITE-agroindustrial.webp" alt="Enterprise Singapore"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/ministerio-de-educacion-del-peru-logo-png_seeklogo-236261.webp"
+                                alt="Hub Innovación Minera del Perú" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/Colores-cofinanciado_color.webp" alt="Universidad"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/logo-itp-1.webp" alt="PECAP" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/logo-incuba.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/sup.png" alt="RUI" class="partners__logo">
+                        </div>
+
+                        <!-- Duplicados para el efecto infinito -->
+                        <div class="partners__item">
+                            <img src="./assets/images/CITE-agroindustrial.webp" alt="Enterprise Singapore"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/ministerio-de-educacion-del-peru-logo-png_seeklogo-236261.webp"
+                                alt="Hub Innovación Minera del Perú" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/Colores-cofinanciado_color.webp" alt="Universidad"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/logo-itp-1.webp" alt="PECAP" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/logo-incuba.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/sub.png" alt="RUI" class="partners__logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonials__container">
+                <h2 class="testimonials__title">TESTIMONIOS</h2>
+
+                <div class="testimonials__carousel">
+                    <button class="testimonials__nav testimonials__nav--prev" aria-label="Previous testimonial">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="testimonials__track">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial testimonial--active">
+                            <div class="testimonial__rating">
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                            </div>
+                            <p class="testimonial__text">
+                                "Quis vivacibus aspernatur percipit aut fugit, lacinia vitae dicta sunt explicabo nemo
+                                er ipsum
+                                voluptatem sed nostrus vitae dicta impedit elit, sed eu euismod temoor incide labore are
+                                volore
+                                magna aliqua ut enim a minim adipiscing elit, sed eu euismod temp endum laboremimina
+                                veritum."
+                            </p>
+                            <p class="testimonial__author">KATRINA PARKER</p>
+                            <div class="testimonial__avatar">
+                                <img src="./assets/images/pedro.png" alt="Katrina Parker"
+                                    class="testimonial__image">
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial">
+                            <div class="testimonial__rating">
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                            </div>
+                            <p class="testimonial__text">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget
+                                ultricies
+                                tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor,
+                                nisl eget
+                                ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl."
+                            </p>
+                            <p class="testimonial__author">JAMES WILSON</p>
+                            <div class="testimonial__avatar">
+                                <img src="./assets/images/melisa_zavala.png" alt="James Wilson"
+                                    class="testimonial__image">
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial">
+                            <div class="testimonial__rating">
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                            </div>
+                            <p class="testimonial__text">
+                                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto
+                                beatae vitae dicta sunt explicabo."
+                            </p>
+                            <p class="testimonial__author">SOPHIA MARTINEZ</p>
+                            <div class="testimonial__avatar">
+                                <img src="./assets/images/steven.png" alt="Sophia Martinez"
+                                    class="testimonial__image">
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial">
+                            <div class="testimonial__rating">
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                                <span>⭐</span>
+                            </div>
+                            <p class="testimonial__text">
+                                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto
+                                beatae vitae dicta sunt explicabo."
+                            </p>
+                            <p class="testimonial__author">SOPHIA MARTINEZ</p>
+                            <div class="testimonial__avatar">
+                                <img src="./assets/images/carlos_hidalgo.png" alt="Sophia Martinez"
+                                    class="testimonial__image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="testimonials__nav testimonials__nav--next" aria-label="Next testimonial">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+
+                    </button>
+                </div>
+
+                <div class="testimonials__indicators">
+                    <button class="testimonials__indicator testimonials__indicator--active" data-index="0"
+                        aria-label="Go to testimonial 1"></button>
+                    <button class="testimonials__indicator" data-index="1" aria-label="Go to testimonial 2"></button>
+                    <button class="testimonials__indicator" data-index="2" aria-label="Go to testimonial 3"></button>
+                    <button class="testimonials__indicator" data-index="3" aria-label="Go to testimonial 4"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/testimonials.js"></script>
+
+</body>
+
+</html>
