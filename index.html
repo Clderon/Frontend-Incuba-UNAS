@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INCUBA - UNAS</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <!-- linkging Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -65,7 +69,7 @@
                     <p class="carousel__subtitle">Transformando el Ecosistema
                         Emprendedor de la Amazonia</p>
 
-                    <div class="carousel__features">
+                    <!-- <div class="carousel__features">
                         <div class="carousel__feature">
                             <span class="carousel__feature-number">1.2K</span>
                             <span class="carousel__feature-text">Estudiantes</span>
@@ -74,7 +78,7 @@
                             <span class="carousel__feature-number">+15</span>
                             <span class="carousel__feature-text">Mentores</span>
                         </div>
-                    </div>
+                    </div> -->
 
                     <button class="carousel__cta btn">Programas</button>
                 </div>
@@ -203,8 +207,7 @@
                             </p>
                             <p class="testimonial__author">KATRINA PARKER</p>
                             <div class="testimonial__avatar">
-                                <img src="./assets/images/pedro.png" alt="Katrina Parker"
-                                    class="testimonial__image">
+                                <img src="./assets/images/pedro.png" alt="Katrina Parker" class="testimonial__image">
                             </div>
                         </div>
 
@@ -248,8 +251,7 @@
                             </p>
                             <p class="testimonial__author">SOPHIA MARTINEZ</p>
                             <div class="testimonial__avatar">
-                                <img src="./assets/images/steven.png" alt="Sophia Martinez"
-                                    class="testimonial__image">
+                                <img src="./assets/images/steven.png" alt="Sophia Martinez" class="testimonial__image">
                             </div>
                         </div>
 
@@ -294,10 +296,81 @@
                 </div>
             </div>
         </section>
+
+        <div class="container swiper">
+            <h2 class="section-title">NUESTRO PROGRAMAS</h2>
+            <div class="wrapper">
+                <div class="card-list swiper-wrapper">
+
+                    <!-- Single Card -->
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="./assets/images/evento-alimentaferia.png" alt="AI" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Programa 01</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iure, quam molestias deserunt nostrum voluptates asperiores excepturi amet sequi rem.</p>
+                            <div class="card-footer">
+                                <div class="card-profile">
+                                    <i class="ti ti-arrow-up-right"></i>
+                                    
+                                </div>
+                                <a href="#" class="card-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Card -->
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="./assets/images/evento-festilibro.png" alt="Productivity" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Programa 02</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat similique cum beatae dignissimos consectetur explicabo assumenda tempora amet nihil!</p>
+                            <div class="card-footer">
+                                <div class="card-profile">
+                                    <i class="ti ti-arrow-up-right"></i>
+                                    
+                                </div>
+                                <a href="#" class="card-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Card -->
+                    <div class="card swiper-slide">
+                        <div class="card-image">
+                            <img src="./assets/images/evento-alimentaferia.png" alt="Animation" />
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Programa 03</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus magni autem cupiditate iure alias architecto sunt dolorum doloremque assumenda.</p>
+                            <div class="card-footer">
+                                <div class="card-profile">
+                                    <i class="ti ti-arrow-up-right"></i>
+                                    
+                                </div>
+                                <a href="#" class="card-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Navigation Buttons -->
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+
     </main>
 
+    <!-- Linking Swiper script -->
     <script src="./assets/js/app.js"></script>
     <script src="./assets/js/testimonials.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper-init.js"></script>
+
+
 
 </body>
 
