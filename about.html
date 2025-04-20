@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INCUBA - UNAS</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- linkging Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./assets/images/image.png" alt="Logo incuba Unas" class="header__logo-img">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item ">
+                    <a href="./index.html" class="nav__link hvr-underline-from-center"> Inicio </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a href="./about.html"
+                        class="nav__link nav__link--active hvr-underline-from-center nav__link--active"> Nosotros </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Programas </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Portafolio </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a href="./team.html" class="nav__link hvr-underline-from-center"> Equipo </a>
+                </li>
+                <li class="header__menu-item ">
+                    <a class="nav__link hvr-underline-from-center"> Contacto </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__buttons">
+            <button class="btn header__button--login btn--outline">Inicia Sesión</button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="carousel">
+            <div class="carousel__container">
+                <!-- Fondo del carrusel con gradiente -->
+                <div class="carousel__background"></div>
+
+                <!-- Contenido fijo central -->
+                <div class="carousel__fixed-content">
+                    <h1 class="carousel__title">
+                        <span class="carousel__item-title">I</span>
+                        <span class="carousel__item-title">N</span>
+                        <span class="carousel__item-title">C</span>
+                        <span class="carousel__item-title">U</span>
+                        <span class="carousel__item-title">B</span>
+                        <span class="carousel__item-title">A</span>
+                        <span class="carousel__item-title"> </span>
+                        <span class="carousel__item-title">U</span>
+                        <span class="carousel__item-title">N</span>
+                        <span class="carousel__item-title">A</span>
+                        <span class="carousel__item-title">S</span>
+                    </h1>
+                    <p class="carousel__subtitle">Transformando el Ecosistema
+                        Emprendedor de la Amazonia</p>
+
+                    <!-- <div class="carousel__features">
+                                <div class="carousel__feature">
+                                    <span class="carousel__feature-number">1.2K</span>
+                                    <span class="carousel__feature-text">Estudiantes</span>
+                                </div>
+                                <div class="carousel__feature">
+                                    <span class="carousel__feature-number">+15</span>
+                                    <span class="carousel__feature-text">Mentores</span>
+                                </div>
+                            </div> -->
+
+                    <button class="carousel__cta btn">Programas</button>
+                </div>
+
+                <!-- Slides del carrusel -->
+                <div class="carousel__slides">
+                    <div class="carousel__slide carousel__slide--active" data-color="yellow">
+                        <img src="./assets/images/carousel-01.jpg" alt="Quark Vainilla" class="carousel__product">
+                    </div>
+                    <div class="carousel__slide" data-color="red">
+                        <img src="./assets/images/carousel-02.jpg" alt="Quark Fresa" class="carousel__product">
+                    </div>
+                    <div class="carousel__slide" data-color="green">
+                        <img src="./assets/images/carousel-03.jpg" alt="Quark Manzana" class="carousel__product">
+                    </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="carousel__control carousel__control--prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="carousel__control carousel__control--next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+
+                <!-- Indicadores de slide -->
+                <div class="carousel__indicators">
+                    <div class="carousel__indicator carousel__indicator--active" data-slide="0"></div>
+                    <div class="carousel__indicator" data-slide="1"></div>
+                    <div class="carousel__indicator" data-slide="2"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="partners about-partners">
+            <div class="partners__container">
+                <h2 class="partners__title">SOCIOS ESTRATÉGICOS</h2>
+
+                <div class="partners__carousel">
+                    <div class="partners__track">
+                        <!-- Los logos se duplican para crear un efecto de desplazamiento infinito -->
+                        <div class="partners__item">
+                            <img src="./assets/images/CITE-agroindustrial.webp" alt="Enterprise Singapore"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/cite.png" alt="Hub Innovación Minera del Perú"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/equipu_INCUBA_UNAS_0.png" alt="Universidad"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/Gobierno_Regional_Huanuco_INCUBA_UNAS_0.png" alt="PECAP"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/kunan_INCUBA_UNAS_0.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/madrid_INCUBA_UNAS.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/mentor_day_INCUBA_UNAS_0.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/ministerio del peru.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/proinnovate.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/red_impacto_INCUBA_UNAS_0.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/sao_paulo_INCUBA_UNAS.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/start_global_INCUBA_UNAS_0.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/toilet_INCUBA_UNAS_0.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/universida_antofagasta_INCUBA_UNAS.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/unsung_INCUBA_UNAS.png" alt="RUI" class="partners__logo">
+                        </div>
+                        <div class="partners__item">
+                            <img src="./assets/images/aliados/wadhwani_INCUBA_UNAS.png" alt="RUI"
+                                class="partners__logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about">
+            <div class="about__container">
+                <h2 class="about__title">NOSOTROS</h2>
+
+                <p class="about__description">
+                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                    consequatur, vel
+                    illum qui dolorem eum fugiat quo voluptas nulla pariatur Quis autem vel eum iure reprehenderit qui
+                    in ea
+                    voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                    nulla
+                    pariatur Quis autem vel eum iure reprehenderit qui in ea voluptate.
+                </p>
+
+                <div class="about__cards">
+                    <!-- Tarjeta Misión -->
+                    <div class="about__card about__card--mission">
+                        <div class="about__card-image-container">
+                            <img src="./assets/images/evento-alimentaferia.png" alt="Producto Yatimu"
+                                class="about__card-image">
+                        </div>
+                        <div class="about__card-content">
+                            <h3 class="about__card-title">MISIÓN</h3>
+                            <p class="about__card-text">
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit,
+                                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                                quaerat
+                                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit
+                                laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Visión -->
+                    <div class="about__card about__card--vision">
+                        <div class="about__card-image-container">
+                            <img src="./assets/images/evento-mercaferia.png" alt="Producto Yatimu"
+                                class="about__card-image">
+                        </div>
+                        <div class="about__card-content">
+                            <h3 class="about__card-title">VISIÓN</h3>
+                            <p class="about__card-text">
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                velit,
+                                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+                                quaerat
+                                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit
+                                laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elementos decorativos -->
+            <div class="about__decoration about__decoration--top-right"></div>
+            <div class="about__decoration about__decoration--bottom-left"></div>
+        </section>
+
+        <section class="values">
+            <div class="values__container">
+                <h2 class="values__title">VALORES</h2>
+                <p class="values__subtitle">Los principios que guían nuestras acciones y decisiones</p>
+
+                <div class="values__grid">
+                    <!-- Valor 1: Excelencia -->
+                    <div class="values__item">
+                        <div class="values__icon-wrapper">
+                            <div class="values__icon values__icon--excellence">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                    </polygon>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="values__name">Excelencia</h3>
+                        <p class="values__description">Buscamos la perfección en todo lo que hacemos, superando
+                            expectativas y
+                            estableciendo nuevos estándares.</p>
+                    </div>
+
+                    <!-- Valor 2: Transparencia -->
+                    <div class="values__item">
+                        <div class="values__icon-wrapper">
+                            <div class="values__icon values__icon--transparency">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="values__name">Transparencia</h3>
+                        <p class="values__description">Actuamos con honestidad y claridad, compartiendo información de
+                            manera
+                            abierta y sincera.</p>
+                    </div>
+
+                    <!-- Valor 3: Compromiso -->
+                    <div class="values__item">
+                        <div class="values__icon-wrapper">
+                            <div class="values__icon values__icon--commitment">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="values__name">Compromiso</h3>
+                        <p class="values__description">Nos dedicamos plenamente a nuestros clientes, colaboradores y a
+                            la
+                            sociedad, cumpliendo nuestras promesas.</p>
+                    </div>
+
+                    <!-- Valor 4: Innovación continua -->
+                    <div class="values__item">
+                        <div class="values__icon-wrapper">
+                            <div class="values__icon values__icon--innovation">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M12 2a9 9 0 0 1 9 9c0 3.18-1.65 6.17-4.35 7.84L12 22l-4.65-3.16C4.65 17.17 3 14.18 3 11a9 9 0 0 1 9-9z">
+                                    </path>
+                                    <path d="M12 6v6l3 3"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="values__name">Innovación continua</h3>
+                        <p class="values__description">Exploramos constantemente nuevas ideas y soluciones para
+                            adaptarnos y
+                            liderar el cambio.</p>
+                    </div>
+
+                    <!-- Valor 5: Responsabilidad -->
+                    <div class="values__item">
+                        <div class="values__icon-wrapper">
+                            <div class="values__icon values__icon--responsibility">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="values__name">Responsabilidad</h3>
+                        <p class="values__description">Asumimos las consecuencias de nuestras acciones y decisiones,
+                            actuando
+                            con ética y compromiso social.</p>
+                    </div>
+
+                    <!-- Valor 6: Calidad -->
+                    <div class="values__item">
+                        <div class="values__icon-wrapper">
+                            <div class="values__icon values__icon--quality">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="values__name">Calidad</h3>
+                        <p class="values__description">Nos esforzamos por ofrecer servicios excepcionales
+                            que
+                            satisfagan y superen las expectativas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elementos decorativos -->
+            <div class="values__decoration values__decoration--top-right"></div>
+            <div class="values__decoration values__decoration--bottom-left"></div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__decoration footer__decoration--top-left"></div>
+            <div class="footer__decoration footer__decoration--bottom-right"></div>
+
+            <div class="footer__container">
+                <!-- Columna izquierda: Logo y suscripción -->
+                <div class="footer__column footer__column--main">
+                    <div class="footer__logo-container">
+                        <div class="footer__logo">
+                            <span class="footer__logo-icon">I</span>NCUBA UNAS
+                        </div>
+                        <p class="footer__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <form class="footer__subscribe">
+                        <input type="email" class="footer__input" placeholder="Enter email">
+                        <button type="submit" class="footer__button">
+                            <i class="fas fa-arrow-right"></i>
+                            Suscribete
+                        </button>
+                    </form>
+
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columnas de enlaces -->
+                <div class="footer__column">
+                    <h3 class="footer__heading">Principal</h3>
+                    <ul class="footer__links">
+                        <li class="footer__item"><a href="#" class="footer__link">Programas</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Nosotros</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Portafolio</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Equipo</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Servicios</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__heading">Nosotros</h3>
+                    <ul class="footer__links">
+                        <li class="footer__item"><a href="#" class="footer__link">Otros servicios</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Tutores</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Eventos</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Pro Innova</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__heading">Enlaces de Interés </h3>
+                    <ul class="footer__links">
+                        <li class="footer__item"><a href="#" class="footer__link">UNAS</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">PRO Innóvate</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Ministerio de la Producción</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="./assets/js/partners.js"></script>
+    <script src="./assets/js/values.js"></script>
+    <script src="./assets/js/footer.js"></script>
+
+
+
+</body>
+
+</html>

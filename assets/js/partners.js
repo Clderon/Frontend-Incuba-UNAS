@@ -225,7 +225,4 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   observer.observe(document.querySelector(".partners__carousel"));
-
-
-  
 });
