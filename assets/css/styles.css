@@ -2760,8 +2760,7 @@ i {
 /* Mentores Section */
 .mentores {
   max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 150px;
+  margin: 150px auto;
 }
 
 .mentores__title {
